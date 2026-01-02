@@ -51,7 +51,7 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: RebeccaSizer/Software_Engineering_Assessment_2025_AR_RW_RS
+          slug: aryatt2git/Software_Engineering_Assessment_2025_AR_RW_RS
 
       # This uploads the pytests to Codecov, including which lines in the code were missed. 
       - name: Upload test results to Codecov
