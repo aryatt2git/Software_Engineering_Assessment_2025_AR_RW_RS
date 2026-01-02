@@ -41,7 +41,7 @@ jobs:
       - name: Run tests
         run: |  
           pytest -q tests/test_unit/test_app.py \
-            --cov=. \
+            --cov=app \
             --cov-branch \
             --cov-report=xml \
             --junitxml=junit.xml -o junit_family=legacy
